@@ -56,7 +56,7 @@ const Cartitems = () => {
           )}
         </tbody>
       </table>
-      {/* Mobile Card/List Layout */}
+
       <div className="cart-list">
         {cartProducts.length === 0 ? (
           <div className="cart-empty-row">Your cart is empty.</div>
