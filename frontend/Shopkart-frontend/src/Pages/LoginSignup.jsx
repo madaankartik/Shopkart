@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../Context/AuthContext'
-import './Css/loginSignup.css'
+import './Css/LoginSignup.css'
 
 const LoginSignup = () => {
   const [isSignUp, setIsSignUp] = useState(true)
